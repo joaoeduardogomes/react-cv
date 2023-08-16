@@ -1,15 +1,16 @@
 import Image from "next/image";
 
+
 export default function Header() {
     return (
         <>
-            <header className={'bg-myBlack w-full h-fit lg:py-6 px-10 lg:gap-6 text-myWhite lg:flex flex-col gap-16 py-3'}>
+            <header className='bg-myBlack w-full h-fit px-12 mb-10 lg:gap-6 text-myWhite flex-col gap-16 py-3 lg:flex lg:py-6'>
                 <Image 
                     src='/Avatar.png'
                     width={200}
                     height={200}
                     alt="Profile image"
-                    className="lg:absolute lg:mt-16 m-auto mb-4 border-4 border-white"
+                    className="lg:absolute lg:mt-6 m-auto mb-4 border-4 border-white"
                 />
                 <div className="min-auto w-fit m-auto text-center">
                     <h1 className="text-2xl font-bold">João Eduardo <br /> M. Gomes</h1>

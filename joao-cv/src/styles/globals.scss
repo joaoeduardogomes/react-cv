@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  print-color-adjust: exact; /* Isto ativa os gráficos de segundo plano por padrão, o que permite a exibição de cores e elementos da página. */
+}
+
+html {
+  font-size: 16px;
+}
+
+main {
+  // display: flex;
+  // justify-content: center;
+  margin: auto;
+  max-width: 1024px;
+  min-height: 800px;
+  max-height: 100vh;
+}
+
+@media print { 
+  button {
+      display: none;
+  }
+  @page{
+      /* Estas configurações vão esconder o cabeçalho e rodapé de página na hora da impressão */
+      size: auto;
+      margin: 0;
+  }
+}
+
+// @media screen and (max-width: 900px) {
+  
+// }
