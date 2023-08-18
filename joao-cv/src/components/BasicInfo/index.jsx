@@ -18,7 +18,7 @@ const currentAge = age(birthdate);
 export default function BasicInfo() {
     return (
         <>
-            <BoxArea title="informações básicas">
+            <BoxArea title="informações básicas" sectionId="basic-info">
                 <ul className="flex flex-col gap-3 justify-start">
                     <li className="flex flex-wrap items-center gap-3">
                         <p className="text-sm font-bold">Idade:</p>

@@ -4,7 +4,7 @@ import BoxArea from '../BoxArea'
 export default function Tecnologies() {
     return (
         <>
-            <BoxArea title="front-end">
+            <BoxArea title="front-end" sectionId="tecnologies">
 
             </BoxArea>
         </>

@@ -9,12 +9,13 @@ export default function Home() {
       <main className='bg-myGray'>
         <Header />
 
-        <div className='flex flex-wrap justify-evenly gap-12 mx-6 md:flex-nowrap h-fit print:flex-nowrap'>
+        <div id='cv-body'>
           <AboutMe />
           <BasicInfo />
+          
+          <Tecnologies />
         </div>
 
-        <Tecnologies />
 
       </main>
     </>
