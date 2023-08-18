@@ -1,6 +1,7 @@
 import AboutMe from '@/components/AboutMe'
 import BasicInfo from '@/components/BasicInfo'
 import Header from '@/components/Header'
+import Tecnologies from '@/components/Tecnologies'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
           <BasicInfo />
         </div>
 
+        <Tecnologies />
 
       </main>
     </>
