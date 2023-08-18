@@ -1,9 +1,68 @@
 {
     "front-end": [
         {
-            "id": 0,
             "name": "html",
             "src": "/tecnologiesImg/img-html5.svg"
+        },
+        {
+            "name": "css",
+            "src": "/tecnologiesImg/img-css3.svg"
+        },
+        {
+            "name": "sass",
+            "src": "/tecnologiesImg/img-sass.png"
+        },
+        {
+            "name": "javascript",
+            "src": "/tecnologiesImg/img-javascript.png"
+        },
+        {
+            "name": "bootstrap",
+            "src": "/tecnologiesImg/img-bootstrap.svg"
+        },
+        {
+            "name": "tailwind css",
+            "src": "/tecnologiesImg/img-tailwind.png"
+        },
+        {
+            "name": "react",
+            "src": "/tecnologiesImg/img-react.png"
+        },
+        {
+            "name": "nextjs",
+            "src": "/tecnologiesImg/img-nextjs.svg"
+        }
+    ],
+    "back-end": [
+        {
+            "name": "python",
+            "src": "/tecnologiesImg/img-python.svg"
+        },
+        {
+            "name": "node js",
+            "src": "/tecnologiesImg/img-nodejs.png"
+        },
+        {
+            "name": "postgresql",
+            "src": "/tecnologiesImg/img-postgre.png"
+        },
+        {
+            "name": "mongo db",
+            "src": "/tecnologiesImg/img-mongo.svg"
+        }
+    ],
+    "others": [
+        {
+            "name": "figma",
+            "src": "/tecnologiesImg/img-figma.png"
+        },
+        {
+            "name": "git",
+            "src": "/tecnologiesImg/img-git.png"
+        },
+        {
+            "name": "wordpress",
+            "src": "/tecnologiesImg/img-wordpress.png"
         }
     ]
 }

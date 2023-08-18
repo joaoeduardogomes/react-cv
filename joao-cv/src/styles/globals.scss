@@ -38,8 +38,8 @@ main {
   gap: 1rem;
   margin: auto;
   max-width: 1024px;
-  min-height: 800px;
-  max-height: 100vh;
+  min-height: fit-content;
+  height: 100rem;
 }
 
 div#cv-body {
@@ -49,18 +49,18 @@ div#cv-body {
   margin: 1rem;
   grid-template-columns: 1fr 1fr;
   grid-auto-flow: column;
-}
 
-#about-me-section {
-  grid-column: 1 / span 1; /* span 1 é padrão */
-}
+  #about-me-section {
+    grid-column: 1 / span 1; /* span 1 é padrão */
+  }
 
-#basic-info-section {
-  grid-column: 2;
-}
+  #basic-info-section {
+    grid-column: 2;
+  }
 
-#tecnologies-section {
-  grid-column: 1 / span 2;
+  #tecnologies-section {
+    grid-column: 1 / span 2;
+  }
 }
 
 @media screen and (max-width: 720px) {
