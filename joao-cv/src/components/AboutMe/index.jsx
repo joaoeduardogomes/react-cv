@@ -1,4 +1,4 @@
-import BoxArea from "../BoxArea/page";
+import BoxArea from "../BoxArea";
 
 export default function AboutMe() {
     return (

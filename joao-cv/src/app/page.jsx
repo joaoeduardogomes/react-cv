@@ -1,6 +1,6 @@
-import AboutMe from '@/components/AboutMe/page'
-import BasicInfo from '@/components/BasicInfo/page'
-import Header from '@/components/Header/page'
+import AboutMe from '@/components/AboutMe'
+import BasicInfo from '@/components/BasicInfo'
+import Header from '@/components/Header'
 
 export default function Home() {
   return (

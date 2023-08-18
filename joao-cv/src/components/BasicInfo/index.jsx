@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BoxArea from "../BoxArea/page";
+import BoxArea from "../BoxArea";
 
 const imgSize = 36
 

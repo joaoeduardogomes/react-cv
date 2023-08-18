@@ -1,4 +1,4 @@
-import '@/colors/globals.scss'
+import '@/styles/globals.scss'
 import { Comfortaa } from 'next/font/google'
 
 const font = Comfortaa({ subsets: ['latin'] })
