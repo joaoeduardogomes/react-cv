@@ -2,67 +2,82 @@
     "front-end": [
         {
             "name": "html",
-            "src": "/tecnologiesImg/img-html5.svg"
+            "src": "/tecnologiesImg/img-html5.svg",
+            "level": "intermediate"
         },
         {
             "name": "css",
-            "src": "/tecnologiesImg/img-css3.svg"
+            "src": "/tecnologiesImg/img-css3.svg",
+            "level": "intermediate"
         },
         {
             "name": "sass",
-            "src": "/tecnologiesImg/img-sass.png"
+            "src": "/tecnologiesImg/img-sass.png",
+            "level": "intermediate"
         },
         {
             "name": "javascript",
-            "src": "/tecnologiesImg/img-javascript.png"
+            "src": "/tecnologiesImg/img-javascript.png",
+            "level": "intermediate"
         },
         {
             "name": "bootstrap",
-            "src": "/tecnologiesImg/img-bootstrap.svg"
+            "src": "/tecnologiesImg/img-bootstrap.svg",
+            "level": "basic"
         },
         {
             "name": "tailwind css",
-            "src": "/tecnologiesImg/img-tailwind.png"
+            "src": "/tecnologiesImg/img-tailwind.png",
+            "level": "basic"
         },
         {
             "name": "react",
-            "src": "/tecnologiesImg/img-react.png"
+            "src": "/tecnologiesImg/img-react.png",
+            "level": "basic"
         },
         {
             "name": "nextjs",
-            "src": "/tecnologiesImg/img-nextjs.svg"
+            "src": "/tecnologiesImg/img-nextjs.svg",
+            "level": "basic"
         }
     ],
     "back-end": [
         {
             "name": "python",
-            "src": "/tecnologiesImg/img-python.svg"
+            "src": "/tecnologiesImg/img-python.svg",
+            "level": "intermediate"
         },
         {
             "name": "node js",
-            "src": "/tecnologiesImg/img-nodejs.png"
+            "src": "/tecnologiesImg/img-nodejs.png",
+            "level": "basic"
         },
         {
             "name": "postgresql",
-            "src": "/tecnologiesImg/img-postgre.png"
+            "src": "/tecnologiesImg/img-postgre.png",
+            "level": "basic"
         },
         {
             "name": "mongo db",
-            "src": "/tecnologiesImg/img-mongo.svg"
+            "src": "/tecnologiesImg/img-mongo.svg",
+            "level": "basic"
         }
     ],
     "others": [
         {
             "name": "figma",
-            "src": "/tecnologiesImg/img-figma.png"
+            "src": "/tecnologiesImg/img-figma.png",
+            "level": "basic"
         },
         {
             "name": "git",
-            "src": "/tecnologiesImg/img-git.png"
+            "src": "/tecnologiesImg/img-git.png",
+            "level": "basic"
         },
         {
             "name": "wordpress",
-            "src": "/tecnologiesImg/img-wordpress.png"
+            "src": "/tecnologiesImg/img-wordpress.png",
+            "level": "intermediate"
         }
     ]
 }

@@ -36,10 +36,11 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin: auto;
+  margin: 2rem auto;
   max-width: 1024px;
   min-height: fit-content;
-  height: 100rem;
+  height: fit-content;
+  padding-bottom: 4rem;
 }
 
 div#cv-body {
@@ -71,6 +72,10 @@ div#cv-body {
 }
 
 @media print {
+  main {
+    margin: auto;
+  }
+  
   button {
     display: none;
   }
