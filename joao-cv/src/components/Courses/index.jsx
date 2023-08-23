@@ -14,7 +14,7 @@ export default function Courses() {
                             </p>
                             <p className={styles.courseTime}>
                                 Carga horária: {course.time} (
-                                <a href={course.certificateLink} target="_blank" className="border-b-2 border-myWhite">
+                                <a href={course.certificateLink} target="_blank" className="underline decoration-solid hover:text-myGreen hover:no-underline hover:font-bold duration-300 ease-in-out">
                                     ver certificado
                                 </a>
                                 )
