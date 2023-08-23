@@ -5,7 +5,7 @@ import './tecnologies.scss';
 
 const imgSize = 90
 const lvlImgWidth = imgSize - 10
-const lvlImgHeight = 12
+const lvlImgHeight = 11
 
 export default function Tecnologies() {
     return (
@@ -16,7 +16,7 @@ export default function Tecnologies() {
                         <figure key={data['front-end'].indexOf(tecnology)} className='flex flex-col items-center gap-2'>
 
                             {/* Tecnology name */}
-                            <figcaption className='font-bold'>{tecnology.name.toUpperCase()}</figcaption>
+                            <figcaption className='tecnologyName'>{tecnology.name.toUpperCase()}</figcaption>
 
                             {/* Tecnology image */}
                             <Image
@@ -44,7 +44,7 @@ export default function Tecnologies() {
                 <span className='flex flex-wrap gap-5'>
                     {data["back-end"].map((tecnology) => (
                         <figure key={data['back-end'].indexOf(tecnology)} className='flex flex-col items-center gap-2'>
-                            <figcaption className='font-bold'>{tecnology.name.toUpperCase()}</figcaption>
+                            <figcaption className='tecnologyName'>{tecnology.name.toUpperCase()}</figcaption>
                             <Image
                                 width={imgSize}
                                 height={imgSize}
@@ -68,7 +68,7 @@ export default function Tecnologies() {
                 <span className='flex flex-wrap gap-5'>
                     {data["others"].map((tecnology) => (
                         <figure key={data['others'].indexOf(tecnology)} className='flex flex-col items-center gap-2'>
-                            <figcaption className='font-bold'>{tecnology.name.toUpperCase()}</figcaption>
+                            <figcaption className='tecnologyName'>{tecnology.name.toUpperCase()}</figcaption>
                             <Image
                                 width={imgSize}
                                 height={imgSize}
@@ -89,7 +89,7 @@ export default function Tecnologies() {
                 </span>
 
                 <aside className='flex flex-wrap gap-5 justify-center mx-auto mt-10 -mb-6 md:-mb-14 print:-mb-12 border-2 border-b-0 w-fit p-3'>
-                    <figure className='flex flex-col items-center'>
+                    <figure className='flex flex-col items-center gap-2'>
                         <Image 
                             width={lvlImgWidth}
                             height={lvlImgHeight}
@@ -99,7 +99,7 @@ export default function Tecnologies() {
                         <figcaption>Básico</figcaption>
                     </figure>
 
-                    <figure className='flex flex-col items-center'>
+                    <figure className='flex flex-col items-center gap-2'>
                         <Image 
                             width={lvlImgWidth}
                             height={lvlImgHeight}
@@ -109,7 +109,7 @@ export default function Tecnologies() {
                         <figcaption>Intermediário</figcaption>
                     </figure>
 
-                    <figure className='flex flex-col items-center'>
+                    <figure className='flex flex-col items-center gap-2'>
                         <Image 
                             width={lvlImgWidth}
                             height={lvlImgHeight}

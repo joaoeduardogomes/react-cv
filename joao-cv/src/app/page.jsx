@@ -1,5 +1,6 @@
 import AboutMe from '@/components/AboutMe'
 import BasicInfo from '@/components/BasicInfo'
+import Courses from '@/components/Courses'
 import Header from '@/components/Header'
 import Tecnologies from '@/components/Tecnologies'
 
@@ -14,6 +15,8 @@ export default function Home() {
           <BasicInfo />
           
           <Tecnologies />
+
+          <Courses />
         </div>
 
 
