@@ -1,0 +1,17 @@
+[
+    {
+        "languageName": "português",
+        "level": "native",
+        "flag": "/flags/flag-brazil.png"
+    },
+    {
+        "languageName": "inglês",
+        "level": "intermediate",
+        "flag": "/flags/flag-usa.png"
+    },
+    {
+        "languageName": "japonês",
+        "level": "intermediate",
+        "flag": "/flags/flag-japan.png"
+    }
+]

@@ -6,6 +6,7 @@ import Experience from '@/components/Experience'
 import Header from '@/components/Header'
 import SoftSkills from '@/components/SoftSKills'
 import Tecnologies from '@/components/Tecnologies'
+import Languages from '@/components/languages'
 import Head from 'next/head'
 
 export default function Home() {
@@ -28,6 +29,8 @@ export default function Home() {
 
           <Education />
           <Experience />
+
+          <Languages />
         </div>
 
 
