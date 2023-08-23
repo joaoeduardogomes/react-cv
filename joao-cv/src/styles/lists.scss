@@ -1,0 +1,67 @@
+/*
+.courseName -> Courses component
+.courseTime -> Courses component
+
+.experiencePosition -> Experience component
+.experienceTime -> Experience component
+
+.softSkill -> SoftSkills component
+
+.educationCourse -> Education component
+.educationCourseItem -> Education component
+*/
+
+.courseName, .experiencePosition, .softSkill {
+    font-weight: 700;
+    display: block;
+
+    &::before {
+        content: "";
+        width:20px;
+        height:20px;
+        background-image: url('../../public/svgComponents/purpleArrow.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: block;
+        float: left;
+        margin-right: 5px;
+    }
+}
+
+.softSkill::before {
+    width:25px;
+    height:25px;
+}
+
+.courseTime, .experienceTime, .educationCourse {
+    margin-left: 1.3rem;
+    margin-top: 0.3rem;
+    
+    &::before {
+        content: "";
+        width:20px;
+        height:20px;
+        background-image: url('../../public/svgComponents/curvedArrow.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: block;
+        float: left;
+        margin-right: 5px;
+    }
+}
+
+.educationCourse {
+    margin-left: 6.5rem;
+}
+
+@media screen and (max-width: 363px) {
+    .educationCourseItem {
+        flex-direction: column;
+    }
+
+    .educationCourse {
+        margin-left: 1rem;
+    }
+}

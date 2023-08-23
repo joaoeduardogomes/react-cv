@@ -1,5 +1,5 @@
 import BoxArea from "../BoxArea";
-import styles from './styles.module.scss';
+import '@/styles/lists.scss';
 
 export default function Education() {
     return (
@@ -7,7 +7,7 @@ export default function Education() {
             <BoxArea title="formação" sectionId="education">
                 <ul>
                     <li>
-                        <span className={`${styles.courseItem} flex flex-row gap-3 items-center`}>
+                        <span className="educationCourseItem flex flex-row gap-3 items-center">
                             <p className="flex-shrink-0 bg-myPurple p-1 rounded-md w-fit">
                                 2014 - 2018
                             </p>
@@ -15,7 +15,7 @@ export default function Education() {
                                 Universidade Federal do Rio Grande do Sul (UFRGS)
                             </p>
                         </span>
-                        <p className={styles.course}>
+                        <p className="educationCourse">
                             Bacharelado em Letras
                         </p>
                     </li>

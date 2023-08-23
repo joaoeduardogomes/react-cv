@@ -2,6 +2,7 @@ import AboutMe from '@/components/AboutMe'
 import BasicInfo from '@/components/BasicInfo'
 import Courses from '@/components/Courses'
 import Education from '@/components/Education'
+import Experience from '@/components/Experience'
 import Header from '@/components/Header'
 import SoftSkills from '@/components/SoftSKills'
 import Tecnologies from '@/components/Tecnologies'
@@ -26,6 +27,7 @@ export default function Home() {
           <SoftSkills />
 
           <Education />
+          <Experience />
         </div>
 
 
