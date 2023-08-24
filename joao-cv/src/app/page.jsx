@@ -49,7 +49,7 @@ export default function Home() {
             />
             <span>
               <p className='text-center'>Ou pelo link:</p>
-              <a href="https://linktr.ee/joaoeduardogomes" className='text-myBlack hover:underline'>
+              <a href="https://linktr.ee/joaoeduardogomes" target='_blank' className='text-myBlack hover:underline'>
                 https://linktr.ee/joaoeduardogomes
               </a>
             </span>
