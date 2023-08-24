@@ -1,0 +1,13 @@
+@media screen and (719px < width < 804px) {
+    .languageItem {
+        max-width: 50px;
+        font-size: 0.8rem;
+    }
+}
+
+@media print {
+    .languageItem {
+        max-width: 50px;
+        font-size: 0.8rem;
+    }
+}
