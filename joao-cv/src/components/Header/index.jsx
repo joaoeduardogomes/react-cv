@@ -6,6 +6,10 @@ import Image from "next/image";
 export default function Header() {   
     const print = () => window.print();
 
+    const mailTo = () => {
+        window.open('mailto:joaoeduardo.gomes21@gmail.com?subject=CV related contact');
+    }
+
     return (
         <>
             <header className='bg-myBlack w-full h-fit px-12 mb-10 lg:gap-6 text-myWhite flex-col gap-16 py-3 lg:flex lg:py-6'>
@@ -20,13 +24,13 @@ export default function Header() {
                     <h1 className="text-2xl font-bold">João Eduardo <br /> M. Gomes</h1>
                     <p id="position" className="text-lg my-5">Desenvolvedor web</p>
 
-                    <button className="btn rounded-full bg-myGreen p-3 mr-5 border-4 border-myGreen transition duration-300 hover:bg-transparent" onClick={print}>
+                    <button className="rounded-full bg-myGreen p-3 mr-5 border-4 border-myGreen transition duration-300 hover:bg-transparent" onClick={print}>
                         Download CV
                     </button>
 
-                    <a href="mailto:joaoeduardo.gomes21@gmail.com" className="btn rounded-full bg-myPurple p-3 border-4 border-myPurple transition duration-300 hover:bg-transparent mt-5 md:mt-0">
+                    <button className="rounded-full bg-myPurple p-3 border-4 border-myPurple transition duration-300 hover:bg-transparent mt-5 md:mt-0" onClick={mailTo}>
                         Entrar em contato
-                    </a>
+                    </button>
                 </div>
             </header>
         </>
