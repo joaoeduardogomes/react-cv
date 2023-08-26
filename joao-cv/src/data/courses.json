@@ -1,36 +1,58 @@
 [
     {
-        "name": "Formação Full Stack JavaScript — OneBitCode",
+        "name": {
+            "en": "JavaScript Full Stack — OneBitCode",
+            "pt": "Formação Full Stack JavaScript — OneBitCode"
+        },
         "time": "100h +",
         "certificateLink": "https://drive.google.com/file/d/11lMEKkj491PUs6BNfYw6wZI7smZSx9Ck/view?usp=drive_link"
     },
     {
-        "name": "Bulma CSS — OneBitCode",
+        "name": 
+        {
+            "en": "Bulma CSS — OneBitCode",
+            "pt": "Bulma CSS — OneBitCode"
+        },
         "time": "2h30",
         "certificateLink": "https://drive.google.com/file/d/1VB7ohimPYT-WjwyTuASnM1Jso0l_zmXi/view?usp=drive_link"
     },
     {
-        "name": "Front-End — Alura",
+        "name": {
+            "en": "Front-End — Alura",
+            "pt": "Front-End — Alura"
+        },
         "time": "150h",
         "certificateLink": "https://cursos.alura.com.br/degree/certificate/9294e6d9-a096-47d2-88ac-50262a73006d"
     },
     {
-        "name": "Python e Orientação a Objetos — Alura",
+        "name": {
+            "en": "Python and Object-Oriented Programming — Alura",
+            "pt": "Python e Orientação a Objetos — Alura"
+        },
         "time": "90h",
         "certificateLink": "https://cursos.alura.com.br/degree/certificate/9d7270d6-d3c9-481e-8b81-fc15f3725620"
     },
     {
-        "name": "Python para Data Science — Alura",
+        "name": {
+            "en": "Python for Data Science — Alura",
+            "pt": "Python para Data Science — Alura"
+        },
         "time": "86h",
         "certificateLink": "https://cursos.alura.com.br/degree/certificate/f06db139-c651-4922-9b28-05ab254eab27"
     },
     {
-        "name": "SQL com PostgreSQL — Alura",
+        "name": {
+            "en": "SQL with PostgreSQL — Alura",
+            "pt": "SQL com PostgreSQL — Alura"
+        },
         "time": "46h",
         "certificateLink": "https://cursos.alura.com.br/degree/certificate/013cff3e-ea59-4815-9ce8-96fd958f70a5"
     },
     {
-        "name": "SEO — Alura",
+        "name": {
+            "en": "SEO — Alura",
+            "pt": "SEO — Alura"
+        },
         "time": "29h",
         "certificateLink": "https://cursos.alura.com.br/degree/certificate/40d1b96f-d5b8-4304-912a-6520260d3af1"
     }

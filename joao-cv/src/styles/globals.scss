@@ -45,6 +45,27 @@ main {
   padding-bottom: 4rem;
 }
 
+#languageButtons {
+  top: 0;
+  position: sticky;
+  z-index: 1;
+}
+
+.languageBtn {
+  background-color: #D9D9D9;
+  padding: 0.6rem;
+  border-radius: 10px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.363);
+  margin-top: 1rem;
+  border: 4px solid transparent;
+  transition: border .3s ease-in-out;
+
+  &:hover,
+  &:focus {
+    border-color: #8E8DBE;
+  }
+}
+
 div#cv-body {
   display: grid;
   column-gap: 2rem;
@@ -54,17 +75,26 @@ div#cv-body {
   grid-auto-flow: column;
 
   /* Caixas da coluna 1: */
-  #about-me-section, #courses-section, #education-section, #languages-section {
-    grid-column: 1 / span 1; /* span 1 é padrão */
+  #about-me-section,
+  #courses-section,
+  #education-section,
+  #languages-section {
+    grid-column: 1 / span 1;
+    /* span 1 é padrão */
   }
 
   /* Caixas da coluna 2: */
-  #basic-info-section, #soft-skills-section, #experience-section, #hobbies-section {
+  #basic-info-section,
+  #soft-skills-section,
+  #experience-section,
+  #hobbies-section {
     grid-column: 2;
   }
 
   /* Seções que ocupam duas colunas: */
-  #tecnologies-section, hr, #qrcode-section {
+  #tecnologies-section,
+  hr,
+  #qrcode-section {
     grid-column: 1 / span 2;
   }
 }
@@ -80,8 +110,9 @@ div#cv-body {
   main {
     margin: auto;
   }
-  
-  button, .btn {
+
+  button,
+  .btn {
     display: none;
   }
 

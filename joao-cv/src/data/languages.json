@@ -1,17 +1,35 @@
 [
     {
-        "languageName": "português",
-        "level": "native",
+        "languageName": {
+            "en": "Portuguese",
+            "pt": "português"
+        },
+        "level": {
+            "en": "native",
+            "pt": "nativo"
+        },
         "flag": "/flags/flag-brazil.png"
     },
     {
-        "languageName": "inglês",
-        "level": "intermediate",
+        "languageName": {
+            "en": "english",
+            "pt": "inglês"
+        },
+        "level": {
+            "en": "intermediate",
+            "pt": "intermediário"
+        },
         "flag": "/flags/flag-usa.png"
     },
     {
-        "languageName": "japonês",
-        "level": "intermediate",
+        "languageName": {
+            "en": "japanese",
+            "pt": "japonês"
+        },
+        "level": {
+            "en": "intermediate",
+            "pt": "intermediário"
+        },
         "flag": "/flags/flag-japan.png"
     }
 ]

@@ -1,5 +1,7 @@
 import Image from "next/image";
 import BoxArea from "../BoxArea";
+import { useContext } from "react";
+import LanguageContext from "../../../contexts/LanguageContext";
 
 const imgSize = 36
 
@@ -16,12 +18,20 @@ const currentAge = age(birthdate);
 
 
 export default function BasicInfo() {
+    const currentLanguage = useContext(LanguageContext)
+
+    const title = currentLanguage === 'en' ? "basic info" : "informações básicas"
+    
     return (
         <>
-            <BoxArea title="informações básicas" sectionId="basic-info">
+            <BoxArea title={title} sectionId="basic-info">
                 <ul className="flex flex-col gap-3 justify-start">
                     <li className="flex flex-wrap items-center gap-3">
-                        <p className="text-sm font-bold">Idade:</p>
+                        <p className="text-sm font-bold">
+                            {currentLanguage === 'en' 
+                            ? "Age" 
+                            : "Idade"}:
+                            </p>
                         <p>{currentAge}</p>
                     </li>
 
@@ -32,7 +42,10 @@ export default function BasicInfo() {
                             height={imgSize}
                             alt="phone icon"
                         />
-                        <p>(48) 9 9850-9958</p>
+                        <p>
+                            {currentLanguage === 'en' ? "(+55) " : ""}
+                            (48) 9 9850-9958
+                        </p>
                     </li>
 
                     <li className="flex flex-wrap items-center gap-3">
@@ -52,7 +65,10 @@ export default function BasicInfo() {
                             height={imgSize}
                             alt="location icon"
                         />
-                        <p>Tubarão, SC, Brasil
+                        <p>
+                            {currentLanguage === 'en' 
+                            ? "Tubarão, SC, Brazil" 
+                            : "Tubarão, SC, Brasil"}
                             <br />
                             (UTC-3)
                         </p>

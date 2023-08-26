@@ -1,10 +1,16 @@
+import { useContext } from "react";
 import BoxArea from "../BoxArea";
 import '@/styles/lists.scss';
+import LanguageContext from "../../../contexts/LanguageContext";
 
 export default function Education() {
+    const currentLanguage = useContext(LanguageContext)
+
+    const title = currentLanguage === 'en' ? "education" : "formação"
+
     return (
         <>
-            <BoxArea title="formação" sectionId="education">
+            <BoxArea title={title} sectionId="education">
                 <ul>
                     <li>
                         <span className="educationCourseItem flex flex-row gap-3 items-center">
@@ -12,11 +18,16 @@ export default function Education() {
                                 2014 - 2018
                             </p>
                             <p className="capitalize flex-shrink">
-                                Universidade Federal do Rio Grande do Sul (UFRGS)
+                                {currentLanguage === 'en'
+                                    ? "Federal University of Rio Grande do Sul"
+                                    : "Universidade Federal do Rio Grande do Sul"} (UFRGS)
                             </p>
                         </span>
                         <p className="educationCourse">
-                            Bacharelado em Letras
+                            {currentLanguage === 'en'
+                                ? "Bachelor's Degree in Letters"
+                                : "Bacharelado em Letras"}
+
                         </p>
                     </li>
                 </ul>

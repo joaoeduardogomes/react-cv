@@ -2,12 +2,16 @@ import data from '@/data/tecnologies.json'
 import BoxArea from '../BoxArea'
 import Image from 'next/image'
 import './tecnologies.scss';
+import { useContext } from 'react';
+import LanguageContext from '../../../contexts/LanguageContext';
 
 const imgSize = 90
 const lvlImgWidth = imgSize - 10
 const lvlImgHeight = 11
 
 export default function Tecnologies() {
+    const currentLanguage = useContext(LanguageContext)
+
     return (
         <>
             <BoxArea title="front-end" sectionId="tecnologies">
@@ -64,7 +68,12 @@ export default function Tecnologies() {
                     ))}
                 </span>
 
-                <h2 className='relative uppercase font-extrabold bg-myPurple w-fit mt-3 py-2 px-6 -mb-3 -ml-8 rounded-md'>Outras ferramentas</h2>
+                <h2 className='relative uppercase font-extrabold bg-myPurple w-fit mt-3 py-2 px-6 -mb-3 -ml-8 rounded-md'>
+                    {currentLanguage == 'en'
+                        ? "Other tools"
+                        : "Outras ferramentas"}
+
+                </h2>
                 <span className='flex flex-wrap gap-5'>
                     {data["others"].map((tecnology) => (
                         <figure key={data['others'].indexOf(tecnology)} className='flex flex-col items-center gap-2'>
@@ -90,33 +99,45 @@ export default function Tecnologies() {
 
                 <aside className='flex flex-wrap gap-5 justify-center mx-auto mt-10 -mb-6 md:-mb-14 print:-mb-12 border-2 border-b-0 w-fit p-3'>
                     <figure className='flex flex-col items-center gap-2'>
-                        <Image 
+                        <Image
                             width={lvlImgWidth}
                             height={lvlImgHeight}
                             src='/svgComponents/lvl-basic.svg'
                             alt="Basic level understanding img"
                         />
-                        <figcaption>Básico</figcaption>
+                        <figcaption>
+                            {currentLanguage == 'en'
+                                ? "Basic"
+                                : "Básico"}
+                        </figcaption>
                     </figure>
 
                     <figure className='flex flex-col items-center gap-2'>
-                        <Image 
+                        <Image
                             width={lvlImgWidth}
                             height={lvlImgHeight}
                             src='/svgComponents/lvl-intermediate.svg'
                             alt="Basic level understanding img"
                         />
-                        <figcaption>Intermediário</figcaption>
+                        <figcaption>
+                            {currentLanguage == 'en'
+                                ? "Intermediate"
+                                : "Intermediário"}
+                        </figcaption>
                     </figure>
 
                     <figure className='flex flex-col items-center gap-2'>
-                        <Image 
+                        <Image
                             width={lvlImgWidth}
                             height={lvlImgHeight}
                             src='/svgComponents/lvl-advanced.svg'
                             alt="Basic level understanding img"
                         />
-                        <figcaption>Avançado</figcaption>
+                        <figcaption>
+                            {currentLanguage == 'en'
+                                ? "Advanced"
+                                : "Avançado"}
+                        </figcaption>
                     </figure>
                 </aside>
             </BoxArea>

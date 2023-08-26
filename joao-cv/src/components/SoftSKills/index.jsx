@@ -1,18 +1,33 @@
+import { useContext } from "react";
 import BoxArea from "../BoxArea";
 import '@/styles/lists.scss';
+import LanguageContext from "../../../contexts/LanguageContext";
 
 export default function SoftSkills() {
+    const currentLanguage = useContext(LanguageContext)
+
+    const title = currentLanguage === 'en' ? "soft skills" : "habilidades pessoais"
+
+    const softSkill = {
+        en: ["flexibility and adaptability", "clear and objective communication", "teamwork", "overcome frustration", "persistence and resilience", "self-learning", "self-motivation"],
+        pt: ["Flexibilidade e adaptabilidade", "comunicação clara e objetiva", "trabalho em equipe", "lidar com frustração", "persistência e resiliência", "autodidatismo", "automotivação"]
+    }
+
     return (
         <>
-            <BoxArea title="habilidades pessoais" sectionId="soft-skills">
+            <BoxArea title={title} sectionId="soft-skills">
+
                 <ul className="flex flex-col gap-5 text-lg">
-                    <li className="softSkill">Flexibilidade e daptabilidade</li>
-                    <li className="softSkill">Comunicação clara e objetiva</li>
-                    <li className="softSkill">Trabalho em equipe</li>
-                    <li className="softSkill">Lidar com frustração</li>
-                    <li className="softSkill">Persistência e resiliência</li>
-                    <li className="softSkill">Autodidatismo</li>
-                    <li className="softSkill">Automotivação</li>
+                    {
+                        softSkill[currentLanguage].map((skill) => (
+                            <li 
+                                key={softSkill[currentLanguage].indexOf(skill)}
+                                className="softSkill capitalize"
+                            >
+                                {skill}
+                            </li>
+                        ))
+                    }
                 </ul>
             </BoxArea>
         </>

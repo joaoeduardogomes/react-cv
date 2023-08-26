@@ -1,12 +1,18 @@
 import Image from "next/image";
 import BoxArea from "../BoxArea";
+import { useContext } from "react";
+import LanguageContext from "../../../contexts/LanguageContext";
 
 const imgSize = 70
 
 export default function Hobbies() {
+    const currentLanguage = useContext(LanguageContext)
+
+    const title = currentLanguage === 'en' ? "hobbies" : "passatempos"
+    
     return (
         <>
-            <BoxArea title="passatempos" sectionId="hobbies">
+            <BoxArea title={title} sectionId="hobbies">
                 <span className="flex flex-wrap md:flex-nowrap md:gap-4 items-center md:justify-center h-full">
                     <Image
                         width={imgSize}
