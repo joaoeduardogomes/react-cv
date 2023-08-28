@@ -30,7 +30,7 @@ One of the notable challenges I encountered was prioritizing the utilization of 
 
 ## How to use
 
-You can simply access the CV at the following link: [not posted yet]()
+You can simply access the CV at the following link: [link to my CV](https://react-cv-red.vercel.app/)
 
 ## Notes
 
