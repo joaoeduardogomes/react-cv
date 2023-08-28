@@ -20,19 +20,17 @@ It's also possible to download the CV by clicking on the button provided for thi
 
 ## Tecnologies
 
-**Front-end:** React, Redux, TailwindCSS
-
-**Back-end:** Node, Express
-
-(De preferência, usar shields nesta parte)
+![Sass](https://img.shields.io/badge/SASS-%20?style=for-the-badge&logo=sass&logoColor=white&color=%23CF649B) ![Tailwind CSS](https://img.shields.io/badge/TAILWIND%20CSS-%20?style=for-the-badge&logo=tailwindcss&logoColor=white&color=%2338BDF8) ![JavaScript](https://img.shields.io/badge/JAVASCRIPT-%20?style=for-the-badge&logo=javascript&logoColor=black&color=%23EFD81E) ![React](https://img.shields.io/badge/REACT-%20?style=for-the-badge&logo=react&logoColor=white&color=%23149ECA) ![NextJS](https://img.shields.io/badge/NEXT.JS-%20?style=for-the-badge&logo=next.js&logoColor=white&color=black)
 
 ## Lessons learned & challenges
 
-O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e como você superou-os?
+This project provided an excellent opportunity to revisit and enhance my React and Next.js skills, with a particular focus on utilizing React hooks effectively.
+
+One of the notable challenges I encountered was prioritizing the utilization of the Tailwind CSS framework for styling the page. Despite having worked with this technology in the past, I gained a deeper understanding of its applications during the course of this project. The process of styling the project allowed me to significantly broaden my familiarity with Tailwind CSS and its features.
 
 ## How to use
 
-Descrever como se pode acessar o projeto (se basta acessar um link, se tem que instalar alguma coisa etc)
+You can simply access the CV at the following link: [link to my CV](https://react-cv-red.vercel.app/)
 
 ## Notes
 
@@ -42,6 +40,5 @@ Outras informações pertinentes. Tipo se o projeto usa material de terceiros e 
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-```markdown
 ![MIT license](<https://img.shields.io/badge/License-MIT-%20?link=https%3A%2F%2Fchoosealicense.com%2Flicenses%2Fmit%2F>)
-```
+
