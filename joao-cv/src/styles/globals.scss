@@ -34,6 +34,10 @@ html {
   font-size: 16px;
 }
 
+body {
+  background-color: #F8F8F8;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -111,8 +115,7 @@ div#cv-body {
     margin: auto;
   }
 
-  button,
-  .btn {
+  button {
     display: none;
   }
 

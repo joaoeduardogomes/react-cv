@@ -22,7 +22,7 @@ export default function Header() {
                     width={200}
                     height={200}
                     alt="Profile image"
-                    className="lg:absolute lg:mt-6 m-auto mb-4 border-4 border-white"
+                    className="lg:absolute lg:mt-6 m-auto mb-4 border-4 border-white lg:shadow-md"
                 />
                 <div className="min-auto w-fit m-auto text-center">
                     <h1 className="text-2xl font-bold">João Eduardo <br /> M. Gomes</h1>

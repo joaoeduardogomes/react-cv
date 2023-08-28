@@ -27,12 +27,9 @@ export default function Home() {
   const languageToPortuguese = () => {
     setCurrentLanguage('pt')
   }
-  
+
   return (
     <>
-      <Head>
-      <link rel="icon" href="/Avatar.png" />
-      </Head>
       <LanguageContext.Provider value={currentLanguage}>
         <section id="languageButtons" className='m-auto flex flex-wrap items-center justify-center gap-10'>
           <button className='languageBtn' autoFocus onClick={languageToEnglish}>
@@ -42,13 +39,13 @@ export default function Home() {
             🇧🇷 Portuguese
           </button>
         </section>
-        
+
         <main className='bg-myGray'>
           <Header />
           <div id='cv-body'>
             <AboutMe />
             <BasicInfo />
-        
+
             <Tecnologies />
             <Courses />
             <SoftSkills />
@@ -58,10 +55,10 @@ export default function Home() {
             <Hobbies />
             <hr className='h-1 m-0 w-full bg-myBlack' />
             <section id='qrcode-section' className='m-auto flex flex-col items-center gap-5'>
-              <p className='text-myWhite font-semibold bg-myBlack p-4 w-fit rounded-md'>Github, Linkedin 
-              {currentLanguage === 'en' 
-              ? ", and certificates" 
-              : " e certificados"}:</p>
+              <p className='text-myWhite font-semibold bg-myBlack p-4 w-fit rounded-md'>Github, Linkedin
+                {currentLanguage === 'en'
+                  ? ", and certificates"
+                  : " e certificados"}:</p>
               <Image
                 width={imgSize}
                 height={imgSize}
