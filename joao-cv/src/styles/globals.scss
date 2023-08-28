@@ -111,6 +111,10 @@ div#cv-body {
 }
 
 @media print {
+  // body {
+  //   zoom: 35%;
+  // }
+
   main {
     margin: auto;
   }

@@ -3,7 +3,7 @@ export default function BoxArea({ title, sectionId, children }) {
         <>
             <section 
                 id={`${sectionId.toLowerCase().split(' ').join('-')}-section`}
-                className="text-myWhite "
+                className="text-myWhite w-full h-auto print:mb-4"
             >
                 <h2 className="relative uppercase font-extrabold bg-myPurple w-fit py-2 px-6 -mb-3 -ml-2 rounded-md">{title}</h2>
                 <div className="bg-myBlack p-6 min-h-fit h-full rounded-lg flex flex-col gap-6">
