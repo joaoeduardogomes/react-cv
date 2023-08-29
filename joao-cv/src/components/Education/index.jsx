@@ -25,7 +25,7 @@ export default function Education() {
                         </span>
                         <p className="educationCourse">
                             {currentLanguage === 'en'
-                                ? "Bachelor's Degree in Letters"
+                                ? "Bachelor's Degree in Translation"
                                 : "Bacharelado em Letras"}
 
                         </p>
