@@ -125,7 +125,7 @@ div#cv-body {
 
   @page {
     /* Estas configurações vão esconder o cabeçalho e rodapé de página na hora da impressão */
-    size: auto;
-    margin: 0;
+    size: auto portrait;
+    margin: auto;
   }
 }
