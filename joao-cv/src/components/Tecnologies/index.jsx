@@ -97,7 +97,7 @@ export default function Tecnologies() {
                     ))}
                 </span>
 
-                <aside className='flex flex-wrap gap-5 justify-center mx-auto mt-10 -mb-6 md:-mb-14 print:-mb-12 border-2 border-b-0 w-fit p-3'>
+                <aside className='flex flex-wrap gap-5 justify-center mx-auto mt-10 -mb-6 md:-mb-14 border-2 border-b-0 w-fit p-3'>
                     <figure className='flex flex-col items-center gap-2'>
                         <Image
                             width={lvlImgWidth}
