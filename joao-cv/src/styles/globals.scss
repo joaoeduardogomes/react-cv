@@ -79,26 +79,30 @@ div#cv-body {
   grid-auto-flow: column;
 
   /* Caixas da coluna 1: */
-  #about-me-section,
-  #courses-section,
-  #education-section,
-  #languages-section {
+  //   #about-me-section,
+  // #courses-section,
+  // #education-section,
+  // #languages-section
+  section:nth-of-type(1), section:nth-of-type(4), section:nth-of-type(6), section:nth-of-type(8) {
     grid-column: 1 / span 1;
     /* span 1 é padrão */
   }
 
   /* Caixas da coluna 2: */
-  #basic-info-section,
-  #soft-skills-section,
-  #experience-section,
-  #hobbies-section {
+  // #basic-info-section,
+  // #soft-skills-section,
+  // #experience-section,
+  // #hobbies-section 
+  section:nth-of-type(2), section:nth-of-type(5), section:nth-of-type(7), section:nth-of-type(9) {
     grid-column: 2;
   }
 
   /* Seções que ocupam duas colunas: */
-  #tecnologies-section,
+  // #tecnologies-section
+  // #qrcode-section
+  section:nth-of-type(3),
   hr,
-  #qrcode-section {
+  section:nth-of-type(10) {
     grid-column: 1 / span 2;
   }
 }
@@ -111,9 +115,9 @@ div#cv-body {
 }
 
 @media print {
-  // body {
-  //   zoom: 35%;
-  // }
+  body {
+    zoom: 33%;
+  }
 
   main {
     margin: auto;
@@ -125,7 +129,7 @@ div#cv-body {
 
   @page {
     /* Estas configurações vão esconder o cabeçalho e rodapé de página na hora da impressão */
-    size: auto portrait;
+    size: A4;
     margin: 0;
   }
 }
