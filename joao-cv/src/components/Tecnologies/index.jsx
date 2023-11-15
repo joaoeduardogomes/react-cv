@@ -15,12 +15,13 @@ export default function Tecnologies() {
     return (
         <>
             <BoxArea title="front-end" sectionId="tecnologies">
-                <span className='flex flex-wrap gap-5'>
+                {/* FRONT-END TECH */}
+                <span className='flex flex-wrap gap-5 justify-center xm:justify-start'>
                     {data["front-end"].map((tecnology) => (
-                        <figure key={data['front-end'].indexOf(tecnology)} className='flex flex-col items-center gap-2'>
+                        <figure key={data['front-end'].indexOf(tecnology)} className='flex flex-col items-center gap-2 w-36'>
 
                             {/* Tecnology name */}
-                            <figcaption className='tecnologyName'>{tecnology.name.toUpperCase()}</figcaption>
+                            <figcaption className='tecnologyName text-xs'>{tecnology.name.toUpperCase()}</figcaption>
 
                             {/* Tecnology image */}
                             <Image
@@ -44,10 +45,11 @@ export default function Tecnologies() {
                     ))}
                 </span>
 
+                {/* BACK-END TECH */}
                 <h2 className='relative uppercase font-extrabold bg-myPurple w-fit mt-3 py-2 px-6 -mb-3 -ml-8 rounded-md'>Back-end</h2>
-                <span className='flex flex-wrap gap-5'>
+                <span className='flex flex-wrap gap-5 justify-center xm:justify-start'>
                     {data["back-end"].map((tecnology) => (
-                        <figure key={data['back-end'].indexOf(tecnology)} className='flex flex-col items-center gap-2'>
+                        <figure key={data['back-end'].indexOf(tecnology)} className='flex flex-col items-center gap-2 w-36'>
                             <figcaption className='tecnologyName'>{tecnology.name.toUpperCase()}</figcaption>
                             <Image
                                 width={imgSize}
@@ -73,10 +75,11 @@ export default function Tecnologies() {
                         ? "Other tools"
                         : "Outras ferramentas"}
 
+                {/* OTHER TOOLS  */}
                 </h2>
-                <span className='flex flex-wrap gap-5'>
+                <span className='flex flex-wrap gap-5 justify-center xm:justify-start'>
                     {data["others"].map((tecnology) => (
-                        <figure key={data['others'].indexOf(tecnology)} className='flex flex-col items-center gap-2'>
+                        <figure key={data['others'].indexOf(tecnology)} className='flex flex-col items-center gap-2 w-36'>
                             <figcaption className='tecnologyName'>{tecnology.name.toUpperCase()}</figcaption>
                             <Image
                                 width={imgSize}
@@ -97,6 +100,7 @@ export default function Tecnologies() {
                     ))}
                 </span>
 
+                {/* UNDERSTANDING LABELS */}
                 <aside className='flex flex-wrap gap-5 justify-center mx-auto mt-10 border-2 w-fit p-3'>
                     <figure className='flex flex-col items-center gap-2'>
                         <Image

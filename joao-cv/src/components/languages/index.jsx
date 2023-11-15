@@ -17,7 +17,7 @@ export default function Languages() {
     return (
         <>
             <BoxArea title={title} sectionId="languages">
-                <ul className="flex flex-wrap gap-3 justify-evenly">
+                <ul className="flex flex-wrap gap-9 justify-evenly">
                     {languagesDB.map((language) => (
                         <li key={languagesDB.indexOf(language)}
                             className={`${styles.languageItem} flex flex-col items-center gap-3`}
@@ -37,7 +37,7 @@ export default function Languages() {
                                 alt={`${language.languageName[currentLanguage]} understanding level`}
                             />
 
-                            <p className="capitalize">{language.level[currentLanguage]}</p>
+                            <p className="capitalize text-xs">{language.level[currentLanguage]}</p>
                         </li>
                     ))}
                 </ul>

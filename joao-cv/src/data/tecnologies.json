@@ -61,6 +61,11 @@
             "name": "mongo db",
             "src": "/tecnologiesImg/img-mongo.svg",
             "level": "basic"
+        },
+        {
+            "name": "flask",
+            "src": "/tecnologiesImg/img-flask.png",
+            "level": "basic"
         }
     ],
     "others": [

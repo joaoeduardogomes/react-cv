@@ -36,7 +36,7 @@ export default function Home() {
             🇺🇸 English
           </button>
           <button className='languageBtn' onClick={languageToPortuguese}>
-            🇧🇷 Portuguese
+            🇧🇷 Português
           </button>
         </section>
 
@@ -54,7 +54,7 @@ export default function Home() {
             <Languages />
             <Hobbies />
             <hr className='h-1 m-0 w-full bg-myBlack' />
-            <section id='qrcode-section' className='m-auto flex flex-col items-center gap-5'>
+            <section id='qrcode-section' className='m-auto flex flex-col items-center gap-5 w-full'>
               <p className='text-myWhite font-semibold bg-myBlack p-4 w-fit rounded-md'>Github, Linkedin
                 {currentLanguage === 'en'
                   ? ", and certificates"
@@ -69,7 +69,7 @@ export default function Home() {
                 <p className='text-center'>
                   {currentLanguage === 'en' ? "Or at the following link" : "Ou pelo link"}:
                 </p>
-                <a href="https://linktr.ee/joaoeduardogomes" target='_blank' className='text-myBlack hover:underline'>
+                <a href="https://linktr.ee/joaoeduardogomes" target='_blank' className='text-myBlack break-all hover:underline'>
                   https://linktr.ee/joaoeduardogomes
                 </a>
               </span>

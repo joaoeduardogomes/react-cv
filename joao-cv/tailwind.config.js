@@ -19,6 +19,9 @@ module.exports = {
         myBlack: '#262626',
         myGray: '#D9D9D9',
       },
+      screens: {
+        'xm': '387px'
+      }
     },
   },
   plugins: [],

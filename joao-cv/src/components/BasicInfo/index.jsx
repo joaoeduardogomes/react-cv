@@ -55,7 +55,7 @@ export default function BasicInfo() {
                             height={imgSize}
                             alt="email icon"
                         />
-                        <p className="text-sm">joaoeduardo.gomes21@gmail.com</p>
+                        <p>dev.joaogomes@gmail.com</p>
                     </li>
 
                     <li className="flex flex-wrap items-center gap-3">

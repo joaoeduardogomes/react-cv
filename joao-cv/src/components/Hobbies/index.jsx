@@ -13,7 +13,7 @@ export default function Hobbies() {
     return (
         <>
             <BoxArea title={title} sectionId="hobbies">
-                <span className="flex flex-wrap md:flex-nowrap md:gap-4 items-center md:justify-center h-full">
+                <span className="flex flex-wrap md:flex-nowrap gap-4 items-center justify-evenly md:justify-center h-full">
                     <Image
                         width={imgSize}
                         height={imgSize}
