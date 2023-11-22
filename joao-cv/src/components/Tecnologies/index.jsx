@@ -16,9 +16,9 @@ export default function Tecnologies() {
         <>
             <BoxArea title="front-end" sectionId="tecnologies">
                 {/* FRONT-END TECH */}
-                <span className='flex flex-wrap gap-5 justify-center xm:justify-start'>
+                <span className='flex flex-wrap gap-5 justify-start xm:justify-start'>
                     {data["front-end"].map((tecnology) => (
-                        <figure key={data['front-end'].indexOf(tecnology)} className='flex flex-col items-center gap-2 w-36'>
+                        <figure key={data['front-end'].indexOf(tecnology)} className='flex flex-col items-center gap-2 w-32'>
 
                             {/* Tecnology name */}
                             <figcaption className='tecnologyName text-xs'>{tecnology.name.toUpperCase()}</figcaption>
@@ -47,9 +47,9 @@ export default function Tecnologies() {
 
                 {/* BACK-END TECH */}
                 <h2 className='relative uppercase font-extrabold bg-myPurple w-fit mt-3 py-2 px-6 -mb-3 -ml-8 rounded-md'>Back-end</h2>
-                <span className='flex flex-wrap gap-5 justify-center xm:justify-start'>
+                <span className='flex flex-wrap gap-5 justify-start xm:justify-start'>
                     {data["back-end"].map((tecnology) => (
-                        <figure key={data['back-end'].indexOf(tecnology)} className='flex flex-col items-center gap-2 w-36'>
+                        <figure key={data['back-end'].indexOf(tecnology)} className='flex flex-col items-center gap-2 w-32'>
                             <figcaption className='tecnologyName'>{tecnology.name.toUpperCase()}</figcaption>
                             <Image
                                 width={imgSize}
@@ -77,9 +77,9 @@ export default function Tecnologies() {
 
                 {/* OTHER TOOLS  */}
                 </h2>
-                <span className='flex flex-wrap gap-5 justify-center xm:justify-start'>
+                <span className='flex flex-wrap gap-5 justify-start xm:justify-start'>
                     {data["others"].map((tecnology) => (
-                        <figure key={data['others'].indexOf(tecnology)} className='flex flex-col items-center gap-2 w-36'>
+                        <figure key={data['others'].indexOf(tecnology)} className='flex flex-col items-center gap-2 w-32'>
                             <figcaption className='tecnologyName'>{tecnology.name.toUpperCase()}</figcaption>
                             <Image
                                 width={imgSize}

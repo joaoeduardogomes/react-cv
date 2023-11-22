@@ -17,7 +17,7 @@ export default function Languages() {
     return (
         <>
             <BoxArea title={title} sectionId="languages">
-                <ul className="flex flex-wrap gap-9 justify-evenly">
+                <ul className="flex flex-wrap gap-9 justify-start">
                     {languagesDB.map((language) => (
                         <li key={languagesDB.indexOf(language)}
                             className={`${styles.languageItem} flex flex-col items-center gap-3`}
