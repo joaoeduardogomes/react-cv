@@ -13,8 +13,8 @@ export default function Education() {
             <BoxArea title={title} sectionId="education">
                 <ul>
                     <li>
-                        <span className="educationCourseItem flex flex-row gap-3 items-center">
-                            <p className="flex-shrink-0 bg-myPurple p-1 rounded-md w-fit">
+                        <span className="educationCourseItem flex flex-col min-[420px]:flex-row gap-3 items-center">
+                            <p className="flex-shrink-0 bg-myPurple p-1 rounded-md w-fit max-w-sm">
                                 2014 - 2018
                             </p>
                             <p className="capitalize flex-shrink">
@@ -23,7 +23,7 @@ export default function Education() {
                                     : "Universidade Federal do Rio Grande do Sul"} (UFRGS)
                             </p>
                         </span>
-                        <p className="educationCourse">
+                        <p className="educationCourse ml-[6.5rem]">
                             {currentLanguage === 'en'
                                 ? "Bachelor's Degree in Translation"
                                 : "Bacharelado em Letras"}

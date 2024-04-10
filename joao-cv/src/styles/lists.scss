@@ -53,13 +53,13 @@
 }
 
 .educationCourse {
-    margin-left: 6.5rem;
+    margin-left: 8.5rem;
 }
 
-@media screen and (max-width: 363px) {
-    .educationCourseItem {
-        flex-direction: column;
-    }
+@media screen and (max-width: 419px) {
+    // .educationCourseItem {
+    //     flex-direction: column;
+    // }
 
     .educationCourse {
         margin-left: 1rem;

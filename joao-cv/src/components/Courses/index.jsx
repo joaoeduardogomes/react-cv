@@ -6,10 +6,12 @@ import LanguageContext from "../../../contexts/LanguageContext";
 
 export default function Courses() {
     const currentLanguage = useContext(LanguageContext)
+
+    const title = currentLanguage === 'en' ? "certifications" : "cursos"
     
     return (
         <>
-            <BoxArea title="cursos" sectionId="courses">
+            <BoxArea title={title} sectionId="courses">
                 <ul className="flex flex-col gap-5">
                     {data.map((course) => (
                         <li key={data.indexOf(course)} >
