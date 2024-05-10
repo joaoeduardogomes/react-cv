@@ -69,7 +69,7 @@ export default function Home() {
                 <p className='text-center'>
                   {currentLanguage === 'en' ? "Or at the following link" : "Ou pelo link"}:
                 </p>
-                <a href="https://linktr.ee/joaoeduardogomes" target='_blank' className='text-myBlack break-all hover:underline'>
+                <a href="https://linktr.ee/joaoeduardogomes" target='_blank' className='text-myBlack break-all hover:font-black underline'>
                   https://linktr.ee/joaoeduardogomes
                 </a>
               </span>
