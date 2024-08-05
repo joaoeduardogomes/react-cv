@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -116,15 +117,22 @@ div#cv-body {
 }
 
 @media print {
-  body {
-    zoom: 30%;
+  * {
+    // color: #000 !important;
+    font-family: 'Montserrat', sans-serif !important;
   }
 
   main {
     margin: auto;
   }
 
-  button {
+  div#cv-body {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+  }
+
+  button, img, #hobbies-section {
     display: none;
   }
 

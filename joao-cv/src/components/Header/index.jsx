@@ -10,10 +10,6 @@ export default function Header() {
     
     const print = () => window.print();
 
-    const mailTo = () => {
-        window.open('mailto:joaoeduardo.gomes21@gmail.com?subject=CV related contact');
-    }
-
     return (
         <>
             <header className='bg-myBlack w-full h-fit px-12 mb-10 lg:gap-6 text-myWhite flex-col gap-16 py-3 lg:flex lg:py-6'>
@@ -36,7 +32,7 @@ export default function Header() {
                             Download CV
                         </button>
                         <a className="rounded-full bg-myPurple p-3 border-4 border-myPurple transition duration-300 hover:bg-transparent" href="https://www.linkedin.com/in/joao-eduardo-gomes/" target="_blank">
-                            {currentLanguage == 'en' ? 'Contact Me' : 'Entrar em contato'}
+                            Linkedin
                         </a>
                     </span>
                 </div>

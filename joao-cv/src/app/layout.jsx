@@ -1,7 +1,7 @@
 import '@/styles/globals.scss'
-import { Montserrat } from 'next/font/google'
+import { Comfortaa, Montserrat } from 'next/font/google'
 
-const font = Montserrat({ subsets: ['latin'] })
+const font = Comfortaa({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'CV — João Gomes',
