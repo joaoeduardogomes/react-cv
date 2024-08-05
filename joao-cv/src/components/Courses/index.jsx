@@ -14,7 +14,7 @@ export default function Courses() {
             <BoxArea title={title} sectionId="courses">
                 <ul className="flex flex-col gap-5">
                     {data.map((course) => (
-                        <li key={data.indexOf(course)} >
+                        <li key={`course-${data.indexOf(course)}`}>
                             <p className='courseName'>
                                 {course.name[currentLanguage]}
                             </p>

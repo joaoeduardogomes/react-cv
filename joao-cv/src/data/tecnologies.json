@@ -3,86 +3,134 @@
         {
             "name": "html",
             "src": "/tecnologiesImg/img-html5.svg",
-            "level": "intermediate"
+            "level": {
+                "en": "intermediate",
+                "pt": "intermediário"
+            }
         },
         {
             "name": "css",
             "src": "/tecnologiesImg/img-css3.svg",
-            "level": "intermediate"
+            "level": {
+                "en": "intermediate",
+                "pt": "intermediário"
+            }
         },
         {
             "name": "sass",
             "src": "/tecnologiesImg/img-sass.png",
-            "level": "intermediate"
+            "level": {
+                "en": "intermediate",
+                "pt": "intermediário"
+            }
         },
         {
             "name": "javascript",
             "src": "/tecnologiesImg/img-javascript.png",
-            "level": "intermediate"
+            "level": {
+                "en": "intermediate",
+                "pt": "intermediário"
+            }
         },
         {
             "name": "bootstrap",
             "src": "/tecnologiesImg/img-bootstrap.svg",
-            "level": "basic"
+            "level": {
+                "en": "basic",
+                "pt": "básico"
+            }
         },
         {
             "name": "tailwind",
             "src": "/tecnologiesImg/img-tailwind.png",
-            "level": "basic"
+            "level": {
+                "en": "basic",
+                "pt": "básico"
+            }
         },
         {
             "name": "react",
             "src": "/tecnologiesImg/img-react.png",
-            "level": "basic"
+            "level": {
+                "en": "basic",
+                "pt": "básico"
+            }
         },
         {
             "name": "nextjs",
             "src": "/tecnologiesImg/img-nextjs.svg",
-            "level": "basic"
+            "level": {
+                "en": "basic",
+                "pt": "básico"
+            }
         }
     ],
     "back-end": [
         {
             "name": "python",
             "src": "/tecnologiesImg/img-python.svg",
-            "level": "intermediate"
+            "level": {
+                "en": "intermediate",
+                "pt": "intermediário"
+            }
         },
         {
             "name": "node js",
             "src": "/tecnologiesImg/img-nodejs.png",
-            "level": "basic"
+            "level": {
+                "en": "basic",
+                "pt": "básico"
+            }
         },
         {
             "name": "postgresql",
             "src": "/tecnologiesImg/img-postgre.png",
-            "level": "basic"
+            "level": {
+                "en": "basic",
+                "pt": "básico"
+            }
         },
         {
             "name": "mongo db",
             "src": "/tecnologiesImg/img-mongo.svg",
-            "level": "basic"
+            "level": {
+                "en": "basic",
+                "pt": "básico"
+            }
         },
         {
             "name": "flask",
             "src": "/tecnologiesImg/img-flask.png",
-            "level": "basic"
+            "level": {
+                "en": "basic",
+                "pt": "básico"
+            }
         }
     ],
     "others": [
         {
             "name": "figma",
             "src": "/tecnologiesImg/img-figma.png",
-            "level": "basic"
+            "level": {
+                "en": "basic",
+                "pt": "básico"
+            }
         },
         {
             "name": "git",
             "src": "/tecnologiesImg/img-git.png",
-            "level": "basic"
+            "level": {
+                "en": "basic",
+                "pt": "básico"
+            }
         },
         {
             "name": "wordpress",
             "src": "/tecnologiesImg/img-wordpress.png",
-            "level": "intermediate"
+            "level": {
+                "en": "intermediate",
+                "pt": "intermediário"
+            }
         }
     ]
 }

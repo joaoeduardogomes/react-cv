@@ -1,0 +1,30 @@
+[
+    {
+        "institution": {
+            "en": "Gran Faculdade",
+            "pt": "Gran Faculdade"
+        },
+        "course": {
+            "en": "Bachelor's Degree in Computer Science",
+            "pt": "Bacharelado em Ciência da Computação"
+        },
+        "date": {
+            "start": "2024",
+            "end": "2028"
+        }
+    },
+    {
+        "institution": {
+            "en": "Federal University of Rio Grande do Sul (UFRGS)",
+            "pt": "Universidade Federal do Rio Grande do Sul (UFRGS)"
+        },
+        "course": {
+            "en": "Bachelor's Degree in Translation",
+            "pt": "Bacharelado em Letras"
+        },
+        "date": {
+            "start": "2014",
+            "end": "2019"
+        }
+    }
+]

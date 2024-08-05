@@ -19,7 +19,8 @@
             "en": "intermediate",
             "pt": "intermediário"
         },
-        "flag": "/flags/flag-usa.png"
+        "flag": "/flags/flag-usa.png",
+        "certificateLink": "https://cert.efset.org/uJPYyB"
     },
     {
         "languageName": {

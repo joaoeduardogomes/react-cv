@@ -38,6 +38,18 @@ export default function Languages() {
                             />
 
                             <p className="capitalize text-xs">{language.level[currentLanguage]}</p>
+
+                            {language.certificateLink && (
+                                <a href={language.certificateLink} target="_blank" className="text-xs underline decoration-solid hover:text-myGreen hover:no-underline duration-300 ease-in-out">
+                                {currentLanguage === 'en' 
+                                    ? "certificate"
+                                    : "certificado"}
+                                </a>
+                            )}
+                            
+                            
+                            
+                            
                         </li>
                     ))}
                 </ul>

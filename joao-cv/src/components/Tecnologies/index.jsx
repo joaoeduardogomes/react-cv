@@ -16,9 +16,10 @@ export default function Tecnologies() {
         <>
             <BoxArea title="front-end" sectionId="tecnologies">
                 {/* FRONT-END TECH */}
-                <span className='flex flex-wrap gap-5 justify-start xm:justify-start'>
+                <div className='flex flex-wrap gap-5 justify-start xm:justify-start'>
                     {data["front-end"].map((tecnology) => (
-                        <figure key={data['front-end'].indexOf(tecnology)} className='flex flex-col items-center gap-2 w-32'>
+                        <span key={data['front-end'].indexOf(tecnology)} className='flex flex-col items-center'>
+                        <figure  className='flex flex-col items-center gap-2 w-32'>
 
                             {/* Tecnology name */}
                             <figcaption className='tecnologyName text-xs'>{tecnology.name.toUpperCase()}</figcaption>
@@ -37,20 +38,26 @@ export default function Tecnologies() {
                             <Image
                                 width={lvlImgWidth}
                                 height={lvlImgHeight}
-                                src={`/svgComponents/lvl-${tecnology.level}.svg`}
+                                src={`/svgComponents/lvl-${tecnology.level.en}.svg`}
                                 alt={`${tecnology.name} understanding level`}
                             />
                         </figure>
-
+                        <p className="capitalize text-xs mt-2">{tecnology.level[currentLanguage]}</p>
+                        </span>
                     ))}
-                </span>
+                </div>
 
                 {/* BACK-END TECH */}
                 <h2 className='relative uppercase font-extrabold bg-myPurple w-fit mt-3 py-2 px-6 -mb-3 -ml-8 rounded-md'>Back-end</h2>
-                <span className='flex flex-wrap gap-5 justify-start xm:justify-start'>
+                <div className='flex flex-wrap gap-5 justify-start xm:justify-start'>
                     {data["back-end"].map((tecnology) => (
-                        <figure key={data['back-end'].indexOf(tecnology)} className='flex flex-col items-center gap-2 w-32'>
-                            <figcaption className='tecnologyName'>{tecnology.name.toUpperCase()}</figcaption>
+                        <span key={data['back-end'].indexOf(tecnology)} className='flex flex-col items-center'>
+                        <figure  className='flex flex-col items-center gap-2 w-32'>
+
+                            {/* Tecnology name */}
+                            <figcaption className='tecnologyName text-xs'>{tecnology.name.toUpperCase()}</figcaption>
+
+                            {/* Tecnology image */}
                             <Image
                                 width={imgSize}
                                 height={imgSize}
@@ -60,15 +67,18 @@ export default function Tecnologies() {
                                 className='rounded-full'
                             />
 
+                            {/* Tecnology understanding level image */}
                             <Image
                                 width={lvlImgWidth}
                                 height={lvlImgHeight}
-                                src={`/svgComponents/lvl-${tecnology.level}.svg`}
+                                src={`/svgComponents/lvl-${tecnology.level.en}.svg`}
                                 alt={`${tecnology.name} understanding level`}
                             />
                         </figure>
+                        <p className="capitalize text-xs mt-2">{tecnology.level[currentLanguage]}</p>
+                        </span>
                     ))}
-                </span>
+                </div>
 
                 <h2 className='relative uppercase font-extrabold bg-myPurple w-fit mt-3 py-2 px-6 -mb-3 -ml-8 rounded-md'>
                     {currentLanguage == 'en'
@@ -77,10 +87,15 @@ export default function Tecnologies() {
 
                 {/* OTHER TOOLS  */}
                 </h2>
-                <span className='flex flex-wrap gap-5 justify-start xm:justify-start'>
+                <div className='flex flex-wrap gap-5 justify-start xm:justify-start'>
                     {data["others"].map((tecnology) => (
-                        <figure key={data['others'].indexOf(tecnology)} className='flex flex-col items-center gap-2 w-32'>
-                            <figcaption className='tecnologyName'>{tecnology.name.toUpperCase()}</figcaption>
+                        <span key={data['others'].indexOf(tecnology)} className='flex flex-col items-center'>
+                        <figure  className='flex flex-col items-center gap-2 w-32'>
+
+                            {/* Tecnology name */}
+                            <figcaption className='tecnologyName text-xs'>{tecnology.name.toUpperCase()}</figcaption>
+
+                            {/* Tecnology image */}
                             <Image
                                 width={imgSize}
                                 height={imgSize}
@@ -90,18 +105,21 @@ export default function Tecnologies() {
                                 className='rounded-full'
                             />
 
+                            {/* Tecnology understanding level image */}
                             <Image
                                 width={lvlImgWidth}
                                 height={lvlImgHeight}
-                                src={`/svgComponents/lvl-${tecnology.level}.svg`}
+                                src={`/svgComponents/lvl-${tecnology.level.en}.svg`}
                                 alt={`${tecnology.name} understanding level`}
                             />
                         </figure>
+                        <p className="capitalize text-xs mt-2">{tecnology.level[currentLanguage]}</p>
+                        </span>
                     ))}
-                </span>
+                </div>
 
                 {/* UNDERSTANDING LABELS */}
-                <aside className='flex flex-wrap gap-5 justify-center mx-auto mt-10 border-2 w-fit p-3'>
+                {/* <aside className='flex flex-wrap gap-5 justify-center mx-auto mt-10 border-2 w-fit p-3'>
                     <figure className='flex flex-col items-center gap-2'>
                         <Image
                             width={lvlImgWidth}
@@ -143,7 +161,7 @@ export default function Tecnologies() {
                                 : "Avançado"}
                         </figcaption>
                     </figure>
-                </aside>
+                </aside> */}
             </BoxArea>
         </>
     )

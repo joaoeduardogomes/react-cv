@@ -57,7 +57,7 @@ export default function BasicInfo() {
                         />
                         
                         <p className="break-all w-3/5 min-[400px]:w-4/5">
-                            dev.joaogomes@gmail.com
+                            <a href="mailto:dev.joaogomes@gmail.com">dev.joaogomes@gmail.com</a>
                         </p>
                         
                     </li>
