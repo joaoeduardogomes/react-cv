@@ -66,7 +66,7 @@ export default function Home() {
                 alt="QR image for other links"
               />
               <span>
-                <p className='text-center'>
+                <p className='hidden, text-center'>
                   {currentLanguage === 'en' ? "Or at the following link" : "Ou pelo link"}:
                 </p>
                 <a href="https://linktr.ee/joaoeduardogomes" target='_blank' className='text-myBlack break-all hover:font-black underline'>

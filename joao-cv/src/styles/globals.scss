@@ -124,6 +124,8 @@ div#cv-body {
 
   main {
     margin: auto;
+    zoom: 30%;
+    letter-spacing: normal;
   }
 
   div#cv-body {
@@ -132,13 +134,13 @@ div#cv-body {
     flex-wrap: nowrap !important;
   }
 
-  button, img, #hobbies-section {
-    display: none;
+  .hidden, button, img, #hobbies-section {
+    display: none !important;
   }
 
   @page {
     /* Estas configurações vão esconder o cabeçalho e rodapé de página na hora da impressão */
     size: A4;
-    margin: 0;
+    margin: 2rem;
   }
 }
