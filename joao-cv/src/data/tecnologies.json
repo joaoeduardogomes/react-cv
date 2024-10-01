@@ -105,6 +105,14 @@
                 "en": "basic",
                 "pt": "básico"
             }
+        },
+        {
+            "name": "express",
+            "src": "/tecnologiesImg/img-express.png",
+            "level": {
+                "en": "basic",
+                "pt": "básico"
+            }
         }
     ],
     "others": [
