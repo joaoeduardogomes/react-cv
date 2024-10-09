@@ -124,23 +124,23 @@ div#cv-body {
 
   main {
     margin: auto;
-    zoom: 30%;
+    zoom: 29%;
     letter-spacing: normal;
   }
 
-  div#cv-body {
-    display: flex !important;
-    flex-direction: column !important;
-    flex-wrap: nowrap !important;
-  }
+  // div#cv-body {
+  //   display: flex !important;
+  //   flex-direction: column !important;
+  //   flex-wrap: nowrap !important;
+  // }
 
-  .hidden, button, img, #hobbies-section {
+  .hidden, button {
     display: none !important;
   }
 
   @page {
     /* Estas configurações vão esconder o cabeçalho e rodapé de página na hora da impressão */
     size: A4;
-    margin: 2rem;
+    margin: 0.5cm;
   }
 }

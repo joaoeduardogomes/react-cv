@@ -31,8 +31,9 @@ export default function Header() {
                         <button className="rounded-full bg-myGreen p-3  border-4 border-myGreen transition duration-300 hover:bg-transparent" onClick={print}>
                             Download CV
                         </button>
-                        <a className="rounded-full bg-myPurple p-3 border-4 border-myPurple transition duration-300 hover:bg-transparent" href="https://www.linkedin.com/in/joao-eduardo-gomes/" target="_blank">
-                            Linkedin
+                        
+                        <a className="rounded-full bg-myPurple p-3 border-4 border-myPurple transition duration-300 hover:bg-transparent" href="mailto:dev.joaogomes@gmail.com" target="_blank">
+                        {currentLanguage == 'en' ? 'Contact me' : 'Entrar em contato'}
                         </a>
                     </span>
                 </div>

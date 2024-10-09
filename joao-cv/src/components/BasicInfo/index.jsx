@@ -50,14 +50,14 @@ export default function BasicInfo() {
 
                     <li className="flex flex-wrap items-center gap-3">
                         <Image
-                            src='/svgComponents/email.svg'
+                            src='/svgComponents/linkedin.svg'
                             width={imgSize}
                             height={imgSize}
-                            alt="email icon"
+                            alt="linkedin icon"
                         />
                         
                         <p className="break-all w-3/5 min-[400px]:w-4/5">
-                            <a href="mailto:dev.joaogomes@gmail.com">dev.joaogomes@gmail.com</a>
+                            <a href="https://www.linkedin.com/in/joao-eduardo-gomes/" target="_blank">/joao-eduardo-gomes</a>
                         </p>
                         
                     </li>
