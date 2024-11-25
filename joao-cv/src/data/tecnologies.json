@@ -20,8 +20,8 @@
             "name": "sass",
             "src": "/tecnologiesImg/img-sass.png",
             "level": {
-                "en": "intermediate",
-                "pt": "intermediário"
+                "en": "basic",
+                "pt": "básico"
             }
         },
         {
@@ -136,8 +136,8 @@
             "name": "wordpress",
             "src": "/tecnologiesImg/img-wordpress.png",
             "level": {
-                "en": "intermediate",
-                "pt": "intermediário"
+                "en": "basic",
+                "pt": "básico"
             }
         }
     ]
