@@ -91,14 +91,6 @@
             }
         },
         {
-            "name": "mongo db",
-            "src": "/tecnologiesImg/img-mongo.svg",
-            "level": {
-                "en": "basic",
-                "pt": "básico"
-            }
-        },
-        {
             "name": "flask",
             "src": "/tecnologiesImg/img-flask.png",
             "level": {
