@@ -32,7 +32,7 @@ export default function BasicInfo() {
                             ? "Age" 
                             : "Idade"}:
                             </p>
-                        <p>{currentAge}</p>
+                        <p>32</p>
                     </li>
 
                     <li className="flex items-center gap-3">
@@ -71,8 +71,8 @@ export default function BasicInfo() {
                         />
                         <p>
                             {currentLanguage === 'en' 
-                            ? "Tubarão, SC, Brazil" 
-                            : "Tubarão, SC, Brasil"}
+                            ? "Brasília, DF, Brazil" 
+                            : "Brasília, DF, Brasil"}
                             <br />
                             (UTC-3)
                         </p>
