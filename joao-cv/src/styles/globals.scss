@@ -122,10 +122,22 @@ div#cv-body {
     font-family: 'Montserrat', sans-serif !important;
   }
 
+  html, body {
+    height: auto !important;
+    overflow: visible !important;
+  }
+
   main {
     margin: auto;
-    zoom: 29%;
+    zoom: 100%;
     letter-spacing: normal;
+    width: 100%;
+    break-after: avoid;
+    break-before: avoid;
+    break-inside: avoid;
+    page-break-after: avoid;
+    page-break-before: avoid;
+    page-break-inside: avoid;
   }
 
   // div#cv-body {
@@ -140,7 +152,8 @@ div#cv-body {
 
   @page {
     /* Estas configurações vão esconder o cabeçalho e rodapé de página na hora da impressão */
-    size: A4;
-    margin: 0.5cm;
+    size: A4 portrait; /* Use A4 width */
+    margin: 0;
+    // height: fit-content;
   }
 }
