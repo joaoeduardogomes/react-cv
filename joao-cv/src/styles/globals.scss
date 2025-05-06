@@ -126,10 +126,10 @@ div#cv-body {
     height: auto !important;
     overflow: visible !important;
   }
-
+  
   main {
     margin: auto;
-    zoom: 100%;
+    // zoom: 100%;
     letter-spacing: normal;
     width: 100%;
     break-after: avoid;
@@ -153,7 +153,7 @@ div#cv-body {
   @page {
     /* Estas configurações vão esconder o cabeçalho e rodapé de página na hora da impressão */
     size: A4 portrait; /* Use A4 width */
-    margin: 0;
+    margin: 0.5cm;
     // height: fit-content;
   }
 }
