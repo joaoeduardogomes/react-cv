@@ -5,18 +5,6 @@ import LanguageContext from "../../../contexts/LanguageContext";
 
 const imgSize = 36
 
-function age(birthdate) {
-    const today = new Date();
-    const age = today.getFullYear() - birthdate.getFullYear() -
-        (today.getMonth() < birthdate.getMonth() ||
-            (today.getMonth() === birthdate.getMonth() && today.getDate() < birthdate.getDate()));
-    return age;
-}
-
-const birthdate = new Date(1993, 4, 5); 
-const currentAge = age(birthdate);
-
-
 export default function BasicInfo() {
     const currentLanguage = useContext(LanguageContext)
 
@@ -26,14 +14,6 @@ export default function BasicInfo() {
         <>
             <BoxArea title={title} sectionId="basic-info">
                 <ul className="flex flex-col gap-3 justify-start">
-                    <li className="flex flex-wrap items-center gap-3">
-                        <p className="text-sm font-bold">
-                            {currentLanguage === 'en' 
-                            ? "Age" 
-                            : "Idade"}:
-                            </p>
-                        <p>32</p>
-                    </li>
 
                     <li className="flex items-center gap-3">
                         <Image
@@ -45,6 +25,18 @@ export default function BasicInfo() {
                         <p>
                             {currentLanguage === 'en' ? "(+55) " : ""}
                             (48) 9 9850-9958
+                        </p>
+                    </li>
+
+                    <li className="flex items-center gap-3">
+                        <Image
+                            src='/svgComponents/email.svg'
+                            width={imgSize}
+                            height={imgSize}
+                            alt="email icon"
+                        />
+                        <p>
+                            dev.joaogomes@gmail.com
                         </p>
                     </li>
 
