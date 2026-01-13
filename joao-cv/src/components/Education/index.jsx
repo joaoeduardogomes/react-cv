@@ -16,7 +16,7 @@ export default function Education() {
                     {data.map((graduation) => (
                         <li key={`graduation-${data.indexOf(graduation)}`}>
                             <span className="educationCourseItem flex flex-col min-[420px]:flex-row gap-3 items-center">
-                                <p className="flex-shrink-0 bg-myPurple p-1 rounded-md w-fit max-w-sm">
+                                <p className="flex-shrink-0 bg-myPurple p-1 rounded-md w-fit max-w-sm text-sm">
                                     {graduation.date.start} – {graduation.date.end}
                                 </p>
                                 <p className="flex-shrink w-full">

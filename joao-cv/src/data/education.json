@@ -5,6 +5,34 @@
             "pt": "Gran Faculdade"
         },
         "course": {
+            "en": "Postgraduate Certificate in Data Science",
+            "pt": "Pós-graduação em Ciência de Dados"
+        },
+        "date": {
+            "start": "2025",
+            "end": "2025"
+        }
+    },
+    {
+        "institution": {
+            "en": "Gran Faculdade",
+            "pt": "Gran Faculdade"
+        },
+        "course": {
+            "en": "Postgraduate Certificate in Full-Stack Development and Cloud Computing",
+            "pt": "Pós-graduação em Desenvolvimento Full Stack e Cloud Computing"
+        },
+        "date": {
+            "start": "2025",
+            "end": "2025"
+        }
+    },
+    {
+        "institution": {
+            "en": "Gran Faculdade",
+            "pt": "Gran Faculdade"
+        },
+        "course": {
             "en": "Bachelor's Degree in Computer Science",
             "pt": "Bacharelado em Ciência da Computação"
         },
