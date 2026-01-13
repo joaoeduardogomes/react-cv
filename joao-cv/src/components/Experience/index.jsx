@@ -18,7 +18,7 @@ export default function Experience() {
                                 ? "Volunteer Translator at"
                                 : "Tradutor Voluntário em"} freeCodeCamp
                         </p>
-                        <p className="experienceTime">03/2023 — {currentLanguage === 'en' ? "Present" : "Atualmente"}
+                        <p className="experienceTime">03/2023 — 07/2025
                         </p>
                     </li>
                 </ul>
