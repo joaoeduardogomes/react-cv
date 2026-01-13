@@ -8,10 +8,27 @@ export default function SoftSkills() {
 
     const title = currentLanguage === 'en' ? "soft skills" : "habilidades pessoais"
 
-    const softSkill = {
-        en: ["flexibility and adaptability", "clear and objective communication", "teamwork", "overcome frustration", "persistence and resilience", "self-learning", "self-motivation"],
-        pt: ["Flexibilidade e adaptabilidade", "comunicação clara e objetiva", "trabalho em equipe", "lidar com frustração", "persistência e resiliência", "autodidatismo", "automotivação"]
-    }
+    const softSkills = {
+    en: [
+        "Clear and objective communication",
+        "Problem solving",
+        "Adaptability",
+        "Attention to detail",
+        "Teamwork",
+        "Self-directed learning",
+        "Resilience"
+    ],
+    pt: [
+        "Comunicação clara e objetiva",
+        "Resolução de problemas",
+        "Adaptabilidade",
+        "Atenção aos detalhes",
+        "Trabalho em equipe",
+        "Aprendizado autodirigido",
+        "Resiliência"
+    ]
+}
+
 
     return (
         <>
@@ -19,9 +36,9 @@ export default function SoftSkills() {
 
                 <ul className="flex flex-col gap-5 text-lg">
                     {
-                        softSkill[currentLanguage].map((skill) => (
+                        softSkills[currentLanguage].map((skill) => (
                             <li 
-                                key={softSkill[currentLanguage].indexOf(skill)}
+                                key={softSkills[currentLanguage].indexOf(skill)}
                                 className="softSkill capitalize"
                             >
                                 {skill}
