@@ -21,9 +21,11 @@ export default function Courses() {
                             <p className='courseTime'>
                                 {course.status ? `status: ${course.status[currentLanguage]}` : ''} {!course.status && (
                                 <a href={course.certificateLink} target="_blank" className="underline decoration-solid hover:text-myGreen hover:no-underline hover:font-bold duration-300 ease-in-out">
+                                    (
                                     {currentLanguage === 'en' 
                                     ? "view certificate"
                                     : "ver certificado"}
+                                    )
                                 </a>
                                 )}
                             </p>
