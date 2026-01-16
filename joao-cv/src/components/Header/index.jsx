@@ -8,7 +8,7 @@ import LanguageContext from "../../../contexts/LanguageContext";
 export default function Header() {   
     const currentLanguage = useContext(LanguageContext)
     
-    const print = () => window.print();
+    const resumePath = `/resumes/${currentLanguage}-cv_joao-gomes.pdf`
 
     return (
         <>
@@ -28,9 +28,10 @@ export default function Header() {
                     </p>
 
                     <span className="flex flex-col md:flex-row items-center justify-center align-middle gap-5 lg:gap-10">
-                        <button className="rounded-full bg-myGreen p-3  border-4 border-myGreen transition duration-300 hover:bg-transparent" onClick={print}>
+                        <a className="rounded-full bg-myGreen p-3  border-4 border-myGreen transition duration-300 hover:bg-transparent"
+                        href={resumePath} download="Joao-Gomes-CV.pdf">
                             Download CV
-                        </button>
+                        </a>
                         
                         <a className="rounded-full bg-myPurple p-3 border-4 border-myPurple transition duration-300 hover:bg-transparent" href="mailto:dev.joaogomes@gmail.com" target="_blank">
                         {currentLanguage == 'en' ? 'Contact me' : 'Entrar em contato'}
