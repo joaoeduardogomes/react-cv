@@ -12,15 +12,21 @@ export default function AboutMe() {
             <BoxArea title={title} sectionId="about-me">
                 <p>
                     {currentLanguage === 'en' 
-                    ? "I am a junior web developer in a career transition." 
-                    : "Sou um desenvolvedor web júnior em transição de carreira."}
+                    ? "My experience in the translation field sparked an interest in creative solutions and problem-solving in web development."
+                    : "Minha experiência na área de tradução instigou um gosto por soluções criativas e resolução de problemas na área do desenvolvimento web."
+                    }
+                </p>
+                <p>
+                    {currentLanguage === 'en' 
+                    ? "Now, as a full-stack web developer, I pride myself on a pragmatic approach to software engineering." 
+                    : "Agora, como desenvolvedor web full-stack, tenho uma abordagem pragmática na engenharia de software."}
                     
                 </p>
                 <p>
                     {currentLanguage === 'en' 
-                    ? "My experience in the translation field sparked an interest in creative solutions and problem-solving in web development."
-                    : "Minha experiência na área de tradução instigou um gosto por soluções criativas e resolução de problemas na área do desenvolvimento web."
-                    }
+                    ? "Rather than just learning random technologies, I focus on tools that make sense for my path and solve real problems." 
+                    : "Ao invés de simplesmente aprender tecnologias aleatórias, busco aprender ferramentas que fazem sentido para a minha trajetória e que resolvem problemas reais."}
+                    
                 </p>
             </BoxArea>
         </>
